@@ -1,0 +1,8 @@
+1. Using multinomial feature (x E (1,2,3,...)) gives slightly higher accuracy than using multiple binomial features (feature -> one-hot vector)
+2. Adding composite features (eg family_size) increases accuracy
+3. Adding title reduced accuracy
+4. Adding isAlone increased validation-score, but not test-score
+5. isAlone, title and family-size together increased both val and test score!
+6. Adding deck information increases val-score accuracy immensely, but reduces test-score!
+  a) Using randomForestClassifier gave slightly better test-score, on the expense of validation-score
+7. Just replacing C with S in 'Embarked' feature imputation causes the score to sky-rocket!! 
