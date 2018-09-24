@@ -6,4 +6,8 @@
 6. Adding deck information increases val-score accuracy immensely, but reduces test-score!
   a) Using randomForestClassifier gave slightly better test-score, on the expense of validation-score
 7. Just replacing C with S in 'Embarked' feature imputation causes the score to sky-rocket!!
-8. Imputing age and fare data using title and pclass attribute respectively gives higher accuracy that simply using MICE algo 
+8. Imputing age and fare data using title and pclass attribute respectively gives higher accuracy that simply using MICE algo
+9. removing deck and title decreases val-accuracy but improves test-accuracy
+10. normalizing has reduced accuracy
+11. addind title and deck to normalized data improved accuracy >1%
+12. Imputing age based on pclass, sex and title didnot help much with accuracy
